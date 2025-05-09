@@ -24,13 +24,25 @@
                 </div>
             </div>
             <div class="corazon"></div>
+                <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <script>
+    
+    window.onload = () => {
+      confetti({
+        particleCount: 250,
+        spread: 120,
+        origin: { y: 0.30 }
+      });
+    };
+  </script>
             <div class="solapa-derecha"></div>
             <div class="solapa-izquierda"></div>
         </div>
     </div>
     <button onclick="document.getElementById('miAudio').play()">Reproducir Música</button>
-
   <audio id="miAudio" src="unatardejunts.m4a"></audio>
+  
     <!-- <script src="script_v2.js"></script> -->
      <script src="script_v2.js"></script>
 </body>
