@@ -151,7 +151,7 @@ h1 {
     right: 15px;
 }
 
-/*Agregar clases dinamicos*/
+
 .abierto .sobre::before {
     transform: rotateX(180deg);
     z-index: 0;
@@ -180,30 +180,7 @@ h1 {
     pointer-events: none;
 }
 
-/*Scroll personalizado*/
 
-/*
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: transparent;
-}
-
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--cuerpo-sobre);
-    border-radius: 4px;
-}
-
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--corazon);
-}
-*/
-
-/*Vista celular*/
 
 @media screen and (max-width:400px) {
     .contenedor {
