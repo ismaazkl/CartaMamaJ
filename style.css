@@ -107,7 +107,7 @@ h1 {
 }
 
 .contenido {
-    font-family: "Open Sans";
+    font-family: "Monserrat";
     color: var(--texto);
     text-align: left;
     font-size: 12px;
@@ -169,7 +169,7 @@ h1 {
 
 .carta.cerrando-carta {
     transform: translateY(-290px);
-    transition: transform .5s ease-in-out;
+    transition: transform .1s ease-in-out;
 }
 
 .carta.abierta {
@@ -179,6 +179,21 @@ h1 {
 .envoltura-sobre.desactivar-sobre .sobre::before {
     pointer-events: none;
 }
+button {
+  background-color: #E91E63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
 
 
 
